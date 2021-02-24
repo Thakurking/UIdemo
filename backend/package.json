@@ -1,0 +1,20 @@
+{
+  "name": "uidemobackend",
+  "version": "1.0.0",
+  "description": "demo for ui project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "devStart": "nodemon server.js"
+  },
+  "author": "Ritesh Kumar Thakur",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.17",
+    "nodemon": "^2.0.7",
+    "validator": "^13.5.2"
+  }
+}
